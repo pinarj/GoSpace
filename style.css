@@ -1,0 +1,214 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav {
+    margin-left: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Hero Section Styles */
+.hero {
+    height: 100vh;
+    background-image: url('images/image.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.explore-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 92px;
+}
+
+.explore-btn:hover {
+    background-color: #114c8c;
+}
+
+/* Gallery Styles */
+.gallery {
+    background-color: black;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.gallery .image-card {
+    width: 30%;
+}
+
+.gallery .image-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.gallery .image-card p {
+    margin-top: 10px;
+    color: white;
+}
+
+.read-more-btn {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 90px;
+}
+
+.read-more-btn:hover {
+    background-color: gray;
+}
+
+/* About Us Section Styles */
+.about-us-container {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: #FFCC00; /* A contrasting color for highlight */
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin: 0 20px 40px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image-container img {
+    width: 150px;
+    height: auto;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+
+
+
+.footer {
+    background: url('path/to/your/background-image.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-section {
+    margin: 20px;
+}
+
+.footer-section h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #FFD700; /* Gold color on hover */
+}
+
+.footer-bottom {
+    border-top: 1px solid white;
+    margin-top: 20px;
+    padding-top: 10px;
+    font-size: 0.8em;
+}
